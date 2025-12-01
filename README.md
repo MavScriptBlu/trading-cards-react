@@ -74,8 +74,6 @@ TradingCards/
 
 ## 🎨 Design Features
 
-### Legendary Tier Requirements Met ✅
-
 1. **Original Artwork (100% Tier)**
    - All 9 character illustrations are 100% original
    - Hand-drawn in Procreate with unique artistic style
@@ -122,8 +120,8 @@ TradingCards/
 ```structure
 Layer 1 (z-index: 1)   → CSS Gradient Background
 Layer 2 (z-index: 2)   → Raster Character Art (PNG)
-Layer 2.5 (z-index: 2.5) → Holographic Foil Overlay
-Layer 3 (z-index: 3)   → Vector Frame (SVG)
+Layer 3 (z-index: 3) → Holographic Foil Overlay
+Layer 4 (z-index: 4)   → Vector Frame (SVG)
 ```
 
 ### Why This Works
@@ -161,6 +159,7 @@ const handleMouseMove = (e) => {
 ```
 
 The position is then used to update a radial gradient in real-time:
+
 ```css
 radial-gradient(circle at 50% 50%, ...) /* follows mouse */
 ```
@@ -223,37 +222,6 @@ In `Card.css`, modify the tilt transform values:
   transform: rotateX(20deg) rotateY(-10deg); /* Adjust these degrees */
 }
 ```
-
----
-
-## 📊 Rubric Alignment
-
-| Requirement | Implementation | Location |
-|-------------|----------------|----------|
-| **5-6 Cards** | 9 unique characters | `src/data.js` |
-| **Original Artwork** | 100% custom illustrations | `public/assets/` |
-| **Vector Graphics** | Inline SVG with `<rect>`, `<circle>`, `<path>` | `src/Card.js` lines 48-99 |
-| **Raster Graphics** | PNG character art | `public/assets/*.png` |
-| **3D Animation** | Hybrid tilt + flip system | `src/Card.css` lines 50-400 |
-| **Design Justification** | Technical defense in user's voice | `src/App.js` lines 28-185 |
-| **Legendary Features** | Mouse-tracking holo, varied flips, tilt tracking | Entire project |
-
----
-
-## 🎯 Grading Checklist
-
-Before submission, verify:
-
-- [x] All 9 images are in `public/assets/` folder
-- [x] File names match paths in `data.js` (relative paths `./assets/`)
-- [x] `npm start` runs without errors
-- [x] Cards tilt on hover (test mouse movement)
-- [x] Cards flip on click
-- [x] Holographic effect follows mouse cursor
-- [x] Justification section is visible at bottom
-- [x] No React errors (check browser DevTools)
-- [x] Responsive on mobile
-- [x] Static build works (`build/index.html` opens correctly)
 
 ---
 
