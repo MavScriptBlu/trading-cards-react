@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/trading-cards-react/static/css/main.b1ec4880.css",
-    "main.js": "/trading-cards-react/static/js/main.9aee6413.js",
+    "main.js": "/trading-cards-react/static/js/main.68401755.js",
     "index.html": "/trading-cards-react/index.html",
     "main.b1ec4880.css.map": "/trading-cards-react/static/css/main.b1ec4880.css.map",
-    "main.9aee6413.js.map": "/trading-cards-react/static/js/main.9aee6413.js.map"
+    "main.68401755.js.map": "/trading-cards-react/static/js/main.68401755.js.map"
   },
   "entrypoints": [
     "static/css/main.b1ec4880.css",
-    "static/js/main.9aee6413.js"
+    "static/js/main.68401755.js"
   ]
 }
