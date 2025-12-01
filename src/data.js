@@ -11,8 +11,8 @@ const cardsData = [
 		image: "./assets/bunny-hoodie.png",
 		frameColor: "#a8e6ff", // Pastel Sky Blue - Tech/Innovation
 		flipType: "flip-standard", // Classic door flip
-		stats: { creativity: 100, coffee: "Required" },
-		desc: "The mastermind behind the keyboard. Powered by React and sheer will.",
+		stats: { sleep: "404 Not Found", coffee: "Required" },
+		desc: "Built the universe in a weekend because Netflix was down. Hasn't seen natural light since 2020. Powered by React and sheer will.",
 	},
 	{
 		id: 2,
@@ -21,8 +21,8 @@ const cardsData = [
 		image: "./assets/galaxy-girl.png",
 		frameColor: "#d4a5ff", // Pastel Lavender - Galaxy/Cosmic
 		flipType: "flip-diagonal", // Disorienting diagonal spin
-		stats: { creativity: 100, syntax: 85 },
-		desc: "Unbound by standard syntax. Uses galaxy brain to solve infinite loops.",
+		stats: { creativity: 100, reality_tether: "10%" },
+		desc: "Sees code in 4 dimensions. Draws diagrams on the whiteboard that look like alien star charts. Refuses to explain them.",
 	},
 	{
 		id: 3,
@@ -31,8 +31,8 @@ const cardsData = [
 		image: "./assets/mechanic-crew.png",
 		frameColor: "#b0c4d4", // Pastel Steel Blue - Industrial/Hardware
 		flipType: "flip-vertical", // Heavy garage door flip
-		stats: { logic: 80, strength: 100 },
-		desc: "The hardware roots. Can fix a server rack with a wrench and a dream.",
+		stats: { PercussiveMaintenance: 100, WD40_Levels: "Max" },
+		desc: "Believes any server error can be fixed by hitting it with a wrench. Smells like oil and stale coffee. Terrified of the cloud.",
 	},
 	{
 		id: 4,
@@ -42,7 +42,7 @@ const cardsData = [
 		frameColor: "#ffb3d9", // Pastel Rose Pink - Love/Loyalty
 		flipType: "flip-standard", // Gentle friendly flip
 		stats: { loyalty: 100, borks: "Infinite" },
-		desc: "Detects emotional bugs and patches them with unconditional love.",
+		desc: "The only team member who actually listens during Standup. Detects emotional bugs and patches them with unconditional love.",
 	},
 	{
 		id: 5,
@@ -52,7 +52,7 @@ const cardsData = [
 		frameColor: "#ff99cc", // Pastel Hot Pink - Chaos/Energy
 		flipType: "flip-invert", // Chaotic inverted flip
 		stats: { chaos: 100, cuteness: 100 },
-		desc: "Cute and fluffy, but will delete your production database if provoked.",
+		desc: "Cute and fluffy, but will delete your production database if provoked. Pressed the red button because it was shiny.",
 	},
 	{
 		id: 6,
@@ -71,8 +71,8 @@ const cardsData = [
 		image: "./assets/viking-chicken.png",
 		frameColor: "#ffe5a3", // Pastel Golden Yellow - Guardianship/Reliability
 		flipType: "flip-standard", // Steady reliable flip
-		stats: { inventory: 100, hunger: 50 },
-		desc: "Guards the golden eggs (server keys) with fierce dedication.",
+		stats: { inventory: 100, clucks_given: 0 },
+		desc: "Hoards server resources like they're golden corn. Will peck your eyes out if you touch the budget. 'The Cloud' is just a big coop to them.",
 	},
 	{
 		id: 8,
@@ -81,8 +81,8 @@ const cardsData = [
 		image: "./assets/fear-loathing.png",
 		frameColor: "#a8e6b3", // Pastel Mint Green - Debugging/Success
 		flipType: "flip-invert", // Trippy inverted flip
-		stats: { hallucinations: "Yes", bugs_found: 404 },
-		desc: "Searching for bugs in the middle of the desert. Don't stop here, this is bat country.",
+		stats: { hallucinations: "Yes", bugs_seen: "Everywhere" },
+		desc: "Did you see what that function just did to us, man? We can't stop here! This is bug country!",
 	},
 	{
 		id: 9,
@@ -92,7 +92,7 @@ const cardsData = [
 		frameColor: "#e0b3ff", // Pastel Lilac - UI/UX Magic
 		flipType: "flip-diagonal", // Flashy diagonal flip
 		stats: { glow: 100, energy: "Max" },
-		desc: "Makes the buttons shiny and the animations smooth. Life of the deployment party.",
+		desc: "If it doesn't glow, it doesn't go. Blinded the QA team with a single CSS gradient. Life of the deployment party.",
 	},
 ];
 

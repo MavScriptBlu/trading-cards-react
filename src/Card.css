@@ -505,3 +505,10 @@
 		height: 420px;
 	}
 }
+
+@media (max-width: 480px) {
+	.card-container {
+		width: 240px;
+		height: 360px;
+	}
+}
