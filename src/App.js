@@ -78,17 +78,18 @@ function App() {
 							<strong>Layer 1 (z-index: 1):</strong> CSS gradient background —
 							no image files needed, just code
 							<br />
-							<strong>Layer 2 (z-index: 2):</strong> The character art (PNG)
+							<strong>Layer 2 (z-index: 3):</strong> The character art (PNG)
 							<br />
-							<strong>Layer 2.5 (z-index: 2.5):</strong> Holographic foil overlay
+							<strong>Layer 2.5 (z-index: 3):</strong> Holographic foil overlay
 							— that rainbow shimmer using <code>mix-blend-mode: color-dodge</code>
 							<br />
-							<strong>Layer 3 (z-index: 3):</strong> SVG frame on top, so the
+							<strong>Layer 3 (z-index: 4):</strong> SVG frame on top, so the
 							borders stay sharp
 							<br />
 							<br />
-							The holo foil sits between the art and the frame to create that
-							premium TCG look. I set <code>pointer-events: none</code> on both
+							The holo foil sits at the same z-index as the art (both at z-index: 3)
+							to blend seamlessly, while the frame floats above at z-index: 4 to
+							keep borders crisp. I set <code>pointer-events: none</code> on both
 							the foil and frame so clicks pass through to the card flip handler
 							underneath.
 						</p>
