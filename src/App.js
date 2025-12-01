@@ -177,7 +177,7 @@ function App() {
 						borderRadius: "10px",
 					}}>
 					<p style={{ fontSize: "0.9rem", color: "#888", lineHeight: "1.8" }}>
-						<strong>Technical Stack:</strong> React.js (Component Architecture)
+						<strong>Technical Stack:</strong> Vite 6 + React 18 (Modern Build Tool & Component Architecture)
 						• CSS3 (3D Transforms & Animations) • SVG (Vector Graphics) • PNG
 						(Raster Art) • Flexbox/Grid (Responsive Layout)
 						<br />

@@ -8,7 +8,7 @@
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v18 or higher)
 - npm
 
 ### Installation
@@ -22,13 +22,11 @@
 2. **Run the development server:**
 
    ```bash
-   npm start
+   npm run dev
    ```
-  
-   Or simply double-click `START.bat` (Windows)
 
 3. **Open your browser:**
-   - Navigate to `http://localhost:3000`
+   - Navigate to `http://localhost:5173/trading-cards-react/`
    - Hover over cards to see dynamic 3D tilt tracking
    - Click cards to flip and reveal stats!
 
@@ -112,6 +110,15 @@ TradingCards/
    - Pastel color-coded frames by role
 
 ---
+
+## ⚡ Modern Tech Stack
+
+Built with **Vite** - the modern, lightning-fast build tool for React:
+
+- **10-100x faster** than Create React App
+- Instant hot module replacement (HMR)
+- Optimized production builds with Rollup
+- Zero vulnerabilities with latest dependencies
 
 ## 🧠 Technical Architecture
 
@@ -257,7 +264,7 @@ The project is configured for static deployment with relative paths:
 
 **Design & Development:** MavScript.blu
 **Artwork:** 100% Original Illustrations (Procreate)
-**Tech Stack:** React 18, CSS3 3D Transforms, SVG, :has() Pseudo-class
+**Tech Stack:** Vite 6 + React 18, CSS3 3D Transforms, SVG, :has() Pseudo-class
 **License:** Educational Project © 2025
 
 ---
